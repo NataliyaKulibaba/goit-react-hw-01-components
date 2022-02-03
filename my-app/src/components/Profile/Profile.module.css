@@ -37,7 +37,6 @@ body {
 
 .stats {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   margin: 10px auto 0px;
   width: 300px;
@@ -55,8 +54,6 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  /* background: white; */
   background: #f1eeee4f;
 }
 

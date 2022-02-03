@@ -13,7 +13,7 @@ import transactions from './components/TransactionHistory/transactions.json'
 
 
 export default function App() {
-  return <div>
+  return <>
     
         <Profile
       src={user.avatar}
@@ -39,7 +39,7 @@ export default function App() {
     <TransactionHistoryList items={transactions} />
     </div>
       
-  </div>
+  </>
 }
 
 
