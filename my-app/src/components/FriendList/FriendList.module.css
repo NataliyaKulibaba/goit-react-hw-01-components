@@ -1,9 +1,11 @@
 .friendList {
   text-align: center;
   margin-bottom: 50px;
+  padding-inline-start: 0px;
 }
 
 .item {
+  position: relative;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -25,4 +27,22 @@
 
 .name {
   text-transform: uppercase;
+}
+
+.status,
+.statusOffline {
+  position: absolute;
+  top: 28px;
+  left: 14px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.status {
+  background-color: green;
+}
+
+.statusOffline {
+  background-color: red;
 }
